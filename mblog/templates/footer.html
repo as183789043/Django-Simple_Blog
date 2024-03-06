@@ -1,0 +1,7 @@
+{% block footer%}
+{%if now%}
+<p style="font-family: 微軟正黑體;" id="time">資料最後更新時間: {{now}}</p>
+{%else%}
+<p style="font-family: 微軟正黑體;">本文取自網路，如有侵權請來信通知下架....</p>
+{%endif%}
+{% endblock %}
